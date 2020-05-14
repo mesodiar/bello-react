@@ -1,8 +1,9 @@
 ## Initial project
-
+ 
 ```
 npx create-react-app <app_name>
 ```
+Note: this command will create its own directory and git commit 
 
 ```
 cd <app_name>
