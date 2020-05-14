@@ -1,10 +1,12 @@
 ## Initial project
 
 ```
-npx create-react-app <project_name>
+npx create-react-app <app_name>
 ```
 
-then
+```
+cd <app_name>
+```
 
 ```
 yarn start
