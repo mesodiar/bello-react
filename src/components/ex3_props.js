@@ -12,6 +12,7 @@ export default function ex3_props(props) {
 
 ex3_props.propTypes = {
   count: PropTypes.number,
+  showLabel: PropTypes.bool,
 };
 
 ex3_props.defaultProps = {
