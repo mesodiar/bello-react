@@ -9,6 +9,9 @@ import Ex4Destructuring from "./components/ex4_destructuring";
 
 function App() {
   const [count, setCount] = useState(10);
+  const submit = () => {
+    alert("HEYHEY");
+  };
 
   return (
     <div className="App">
@@ -28,6 +31,7 @@ function App() {
       <Ex3Props count="3" />
       <Ex3Props count={count} color="red" showLabel />
       <Ex4Destructuring usernameHint="Username" passwordHint="Password" />
+      <Ex4Destructuring handleSubmit={submit} />
     </div>
   );
 }
