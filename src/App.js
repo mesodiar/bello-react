@@ -13,6 +13,7 @@ function App() {
       <CounterClassComponent />
       <CounterFunctionalComponent />
       <Ex1style />
+      <Ex2style image="/images/IMG_0094.JPG" />
     </div>
   );
 }
