@@ -8,7 +8,13 @@ export default function ex4_destructuring({
 }) {
   return (
     <div>
-      <form onSubmit={handleSubmit}>
+      <form
+        onSubmit={(event) => {
+          //prevent default: ป้องกันไม่ให้มันเด้ง เพื่อโหลดหน้าใหม่หลังกด ok ตอน alert
+          event.preventDefault();
+          handleSubmit();
+        }}
+      >
         <label htmlFor="username">username</label>
         <input
           text="text"
