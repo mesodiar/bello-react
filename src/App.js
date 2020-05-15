@@ -25,7 +25,7 @@ function App() {
       <Ex1Style />
       <Ex2Image image="/images/IMG_0094.JPG" />
       <Ex3Props count="3" />
-      <Ex3Props count={3} color="red" />
+      <Ex3Props count={count} color="red" showLabel />
     </div>
   );
 }
