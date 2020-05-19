@@ -26,6 +26,18 @@ class Content extends React.Component {
   componentDidMount() {
     console.log("Component DID MOUNT");
   }
+  componentWillRecieveProps(newProps) {
+    console.log("Component WILL RECEIVE PROPS");
+  }
+  shouldComponentUpdate(newProps, newState) {
+    return true;
+  }
+  componentWillUpdate(nextProps, nextState) {
+    console.log("Compoennt WILL Update");
+  }
+  componentDidUpdate(prepProps, prevState) {
+    console.log("Compoennt DID UPDATE");
+  }
 
   render() {
     return <h1>{this.props.myNumber}</h1>;
