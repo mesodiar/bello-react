@@ -13,12 +13,6 @@ cd <app_name>
 yarn start
 ```
 
-## To use prop-types
-
-```
-npm i prop-types
-```
-
 ## Suitable VSCode Extensions
 
 - vscode-icon
