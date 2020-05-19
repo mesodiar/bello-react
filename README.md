@@ -36,6 +36,11 @@ yarn start
 
 ![](https://github.com/mesodiar/bello-react/blob/84d75d0a7b004acb86741381f2251681a59cdf93/public/images/mils-one-percent-30.jpg?raw=true)
 
+## Note:
+
+React vs. Angular: The Complete Comparison:
+https://programmingwithmosh.com/react/react-vs-angular/
+
 ---
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
