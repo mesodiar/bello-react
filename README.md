@@ -41,6 +41,9 @@ yarn start
 React vs. Angular: The Complete Comparison:
 https://programmingwithmosh.com/react/react-vs-angular/
 
+Modifying Body Attributes In React:
+https://brettdewoody.com/modifying-body-attributes-in-react/
+
 ---
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
